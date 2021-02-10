@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver   #An automated testing project of the site: https://www.saucedemo.com/
 from selenium.webdriver.chrome.webdriver import WebDriver
 
 driver: WebDriver = webdriver.Chrome("C:\\Chromedriver.exe")
